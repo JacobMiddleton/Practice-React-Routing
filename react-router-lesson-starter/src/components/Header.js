@@ -24,7 +24,7 @@ export default function Header () {
             <NavLink to="/profile">Profile</NavLink>
             <button onClick={handleLogout} className="logout"> Log Out </button>
           </> : 
-          <NavLink href="/sign-up">Sign Up</NavLink>
+          <NavLink to="/sign-up">Sign Up</NavLink>
       }
     </div>
   )
