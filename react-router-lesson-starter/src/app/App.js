@@ -15,13 +15,13 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Header />
       <main>
         {/* Add Routes here! */}
       </main>
       <Footer />
-    </div>
+    </Router>
   );
 }
 
